@@ -4,7 +4,7 @@ company: Meijin, a.s.
 email: gerner@moyo.cz
 name: Jan Gerner
 description: >- # this means to ignore newlines until "baseurl:"
-  150 let tradice výroby kvalitních cedníků (čím se budete zabývat?)
+  150 let tradice výroby neprůstřelných cedníků (čím se budete zabývat?)
 baseurl: "/Meijin" # the subpath of your site, e.g. /blog
 url: "https://xnekv03.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
