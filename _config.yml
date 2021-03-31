@@ -13,7 +13,7 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/compass.png"
   # author will appear under the avatar (optional)
-  author: "ojtěch Nekvapil"
+  author: "Vojtěch Nekvapil"
   # tagline will appear under the title (optional)
   tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
   # if include_content is true, the contents of the content.html include will be
