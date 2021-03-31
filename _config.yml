@@ -1,13 +1,13 @@
 # general configuration
-url: http://excentris.net
-baseurl: ''
+url: '/Meijin'
+baseurl: 'https://xnekv03.github.io'
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
   logo: "/images/compass.png"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "ojtěch Nekvapil"
   # tagline will appear under the title (optional)
   tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
   # if include_content is true, the contents of the content.html include will be
