@@ -5,8 +5,8 @@ email: gerner@moyo.cz
 name: Jan Gerner
 description: >- # this means to ignore newlines until "baseurl:"
   150 let tradice výroby neprůstřelných cedníků
-baseurl: "/Meijin" # the subpath of your site, e.g. /blog
-url: "https://xnekv03.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://meijin.cz" # the base hostname & protocol for your site, e.g. http://example.com
 
 # compass configuration
 compass:
