@@ -20,6 +20,10 @@
           <span class="fa fa-user fa-lg main-list-item-icon"></span>
           <a href="mailto:Info@meijin.cz">Kontaktujte  nás</a>
         </li>
+<!--          {% assign post_count=site.posts | size %}-->
+<!--          {% if post_count > 0 %}-->
+<!--          <h5>Pozvánky na valnou hromadu</h5>-->
+<!--          {% endif %}-->
 
           {% for post in site.posts %}
           <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
