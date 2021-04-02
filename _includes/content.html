@@ -1,22 +1,31 @@
-<h2>Kontaktní údaje</h2>
-<p>
-
-  Meijin, a.s.,]  IČ: 099 14 471, se sídlem Praha, Nové Město, Na Moráni 345/11, PSČ 128 00
-</p>
-<p>
-  Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, v oddíle B, vložka 26080,
-  </p>
-  <p>
-   tel. +420 602 490 978
-</p>
 
 
-<hr />
+      <h2>Kontaktní údaje</h2>
+      <p>
 
-<ul class="fa-ul main-list">
+        Meijin, a.s.,]  IČ: 099 14 471, se sídlem Praha, Nové Město, Na Moráni 345/11, PSČ 128 00
+      </p>
+      <p>
+        Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, v oddíle B, vložka 26080,
+      </p>
+      <p>
+        tel. +420 602 490 978
+      </p>
 
-  <li class="main-list-item">
-    <span class="fa fa-user fa-lg main-list-item-icon"></span>
-    <a href="mailto:Info@meijin.cz">Kontaktujte  nás</a>
-  </li>
-</ul>
+
+      <hr />
+
+      <ul class="fa-ul main-list">
+        <li class="main-list-item">
+          <span class="fa fa-user fa-lg main-list-item-icon"></span>
+          <a href="mailto:Info@meijin.cz">Kontaktujte  nás</a>
+        </li>
+
+          {% for post in site.posts %}
+          <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+          {% endfor %}
+
+      </ul>
+
+
+
