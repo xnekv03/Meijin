@@ -1,13 +1,19 @@
 # general configuration
-url: http://excentris.net
-baseurl: ''
+title: Meijin, a.s.
+company: Meijin, a.s.
+email: gerner@moyo.cz
+name: Jan Gerner
+description: >- # this means to ignore newlines until "baseurl:"
+  Nákup, prodej a správa nemovitostí
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://meijin.cz" # the base hostname & protocol for your site, e.g. http://example.com
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+#  logo: "/images/compass.png"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Vojtěch Nekvapil"
   # tagline will appear under the title (optional)
   tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
   # if include_content is true, the contents of the content.html include will be
