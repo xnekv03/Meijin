@@ -7,6 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Nákup, prodej a správa nemovitostí
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://meijin.cz" # the base hostname & protocol for your site, e.g. http://example.com
+mapa: "https://en.mapy.cz/s/negepazeka"
 
 # compass configuration
 compass:
