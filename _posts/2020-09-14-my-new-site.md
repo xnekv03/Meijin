@@ -3,6 +3,7 @@ layout: post
 title: "Pozvánka na valnou hromadu - duben 2021"
 date: 2020-09-14 14:37:43 +0300
 categories: technology
+published: false
 ---
 
 **Datum konání**:  15. dubna 2021

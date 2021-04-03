@@ -4,14 +4,14 @@ company: Meijin, a.s.
 email: gerner@moyo.cz
 name: Jan Gerner
 description: >- # this means to ignore newlines until "baseurl:"
-  150 let tradice výroby neprůstřelných cedníků
+  Nákup, prodej a správa nemovitostí
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://meijin.cz" # the base hostname & protocol for your site, e.g. http://example.com
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+#  logo: "/images/compass.png"
   # author will appear under the avatar (optional)
   author: "Vojtěch Nekvapil"
   # tagline will appear under the title (optional)
