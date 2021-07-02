@@ -1,7 +1,13 @@
 <div class="wrapper text-center">
-<hr>
-  Created by <a href="https://appfactory.cz" target="_blank">Vojtěch Nekvapil</a> &copy; <span id="spanYear"></span>
-  <script>
-    $('#spanYear').html(new Date().getFullYear());
-  </script>
+    <hr>
+    Created by <a href="https://appfactory.cz" target="_blank">Vojtěch Nekvapil</a> &copy; <span id="spanYear"></span>
+    <script>
+        var year = new Date().getFullYear();
+
+        if (year > 2021) {
+            var year = '2021 - ' + year;
+        }
+        $('#spanYear').html(year);
+
+    </script>
 </div>
